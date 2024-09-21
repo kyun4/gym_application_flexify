@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "690179549602",
+    "project_id": "flexify-mobile",
+    "storage_bucket": "flexify-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690179549602:android:add39adcc8ea2382006afb",
+        "android_client_info": {
+          "package_name": "com.example.flexify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690179549602-bi5pkj7kjjsep988rs98dgjcio121okn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkaQJcabYaQwcIAocQSffHMj3xpQrV9Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690179549602-bi5pkj7kjjsep988rs98dgjcio121okn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "690179549602-ln1qa1pbhj9lvb194orpj3cmm45vp697.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flexifymobileapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
