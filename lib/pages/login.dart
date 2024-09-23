@@ -35,7 +35,7 @@ class _LoginState extends State<Login> {
                         TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
               ),
               const Center(
-                  child: Text('We Train you Flex',
+                  child: Text('We Train You Flex',
                       style: TextStyle(fontSize: 14))),
               const SizedBox(height: 30),
               const TextFieldCustomPrimary(

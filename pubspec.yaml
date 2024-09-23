@@ -114,6 +114,9 @@ flutter:
       - assets/svg/comments-3-svgrepo-com.svg
       - assets/svg/comments-svgrepo-com.svg
       - assets/svg/image-upload-svgrepo-com.svg
+      - assets/svg/messages-svgrepo-com.svg
+      - assets/svg/video-call-svgrepo-com.svg
+      - assets/svg/messages-dots-svgrepo-com.svg
       - assets/images/blankprofile1.png
       - assets/images/blankprofile2.png
       - assets/icon/flexifylogo1.png

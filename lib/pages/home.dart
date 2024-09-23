@@ -1,4 +1,5 @@
 import 'package:flexify/pages/login.dart';
+import 'package:flexify/pages/messages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -20,11 +21,6 @@ class _HomePageState extends State<HomePage> {
     super.initState();
   }
 
-  void _joinMeeting() async {
-    ScaffoldMessenger.of(context)
-        .showSnackBar(SnackBar(content: Text('Jitsi Here')));
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,13 +37,26 @@ class _HomePageState extends State<HomePage> {
                 child:
                     SvgPicture.asset('assets/svg/arrow-left-svgrepo-com.svg')),
           ),
-          title: Text('Video Call')),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: _joinMeeting,
-          child: Text('Join Video Call'),
-        ),
-      ),
+          centerTitle: true,
+          title: Text(
+            'Welcome',
+          ),
+          actions: [
+            GestureDetector(
+              onTap: () => {
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) {
+                  return Messages();
+                }))
+              },
+              child: Container(
+                  margin: const EdgeInsets.only(right: 18),
+                  child: SvgPicture.asset(
+                      'assets/svg/messages-dots-svgrepo-com.svg',
+                      height: 30)),
+            )
+          ]),
+      body: Center(child: Container()),
     );
   }
 }
